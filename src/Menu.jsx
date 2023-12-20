@@ -1,8 +1,10 @@
 import React from "react";
 
+// accept props here
 const Menu = (props) => {
 	const items = props.items;
 
+	// create the UI according to instructions
 	return (
 		<div className="section-center">
 			{items.map((item) => {
